@@ -1,0 +1,70 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bskpainel{
+  width: 100%;height: auto;
+}
+
+.login{
+  position: absolute;
+  width: 35%;
+  height: auto;
+  padding: 25px;
+  border-radius: 6px;
+  background: white;
+  z-index: 9000;
+  margin: 10% auto;
+
+}
+
+.sadsadsd{
+font-size: 4em;
+}
+
+.asdsd{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form-group input{
+  width: 100%;
+  height: 40px;
+  text-indent: 10px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  border: solid 2px rgb(191, 191, 191);
+
+}
+
+.form-group input:focus{
+  border: solid 2px rgb(124, 124, 124);
+
+}
+
+.btn{
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  background: rgb(0, 168, 135);
+  font-size: 1em;
+}
+
+.asdsd a {
+  color: rgb(36, 36, 36);
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight:700 ;
+}

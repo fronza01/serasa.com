@@ -1,0 +1,123 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: 0px;
+}
+body {
+    background-color: #eaeef3;
+}
+.menu-header{
+    color: #FFF !important;
+}
+.form-group span{
+    color:red;
+    font-weight:bold;
+}
+
+.sidebar{
+    background-color: #222c3c;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: calc(100vh - 56px);
+    transition: all 0.3s;
+}
+.sidebar ul li a{
+    display: block;
+    padding: 0.75rem 1rem;
+    color: #c7cace;
+    text-decoration: none;
+}
+.sidebar ul li a:hover, .sidebar ul .active a{
+    color: #ecedee;
+    background-color: #354358;
+}
+.sidebar ul ul a{
+    padding-left: 2.5rem;
+    background-color: #1e2835;
+}
+/*Seletor utilizado para ativar o botão ocultar menu em PC*/ 
+.sidebar.toggled{
+    margin-left: -200px;
+}
+
+@media (max-width: 768px){
+    .sidebar{
+        margin-left: -200px;
+    }
+    .sidebar.toggled{
+        margin-left: 0px;
+    }
+}
+
+.sidebar [data-toggle="collapse"]{
+    position: relative;
+}
+.sidebar [data-toggle="collapse"]:before{
+    content: "\f0d7";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    right: 1rem;
+}
+.sidebar [aria-expanded="true"]{
+    background-color: #19222d;
+}
+.sidebar [aria-expanded="true"]:before{
+    content: "\f0d8";
+}
+.content{
+    width: 100%;
+}
+.titulo{
+    font-size: 2.0em !important;
+}
+
+.showshow{
+    font-size:3em;}
+
+    .colorcolorcolor{
+        background-color:black;
+    }
+
+
+
+.relatorio{
+    width: 100%;
+    height: 115px;
+    padding: 15px;
+    border-radius: 4px;
+    background: rgb(245, 245, 245);
+    border-left: solid 5px rgb(98, 0, 234);
+    border-bottom: 1px solid rgb(162, 162, 162);
+
+}
+
+.relatorio1{
+    width: 100%;
+    height: 115px;
+    padding: 15px;
+    border-radius: 4px;
+    background: rgb(245, 245, 245);
+    border-left: solid 5px rgb(255, 179, 0);
+    border-bottom: 1px solid rgb(162, 162, 162);
+
+}
+
+.relatorio2{
+     width: 100%;
+    height: 115px;
+    padding: 15px;
+    border-radius: 4px;
+    background: rgb(245, 245, 245);
+    border-left: solid 5px rgb(156, 39, 176);
+    border-bottom: 1px solid rgb(162, 162, 162);
+}
+.relatorio3{
+      width: 100%;
+    height: 115px;
+    padding: 15px;
+    border-radius: 4px;
+    background: rgb(245, 245, 245);
+    border-left: solid 5px rgb(38, 166, 154);
+    border-bottom: 1px solid rgb(162, 162, 162);
+}
